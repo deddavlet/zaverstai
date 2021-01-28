@@ -1,4 +1,4 @@
-.menu{
+.header-nav{
 	background-image: url("images/sonnie-hiles.png");
 	height: 581px;
 	width: 1440px;
@@ -6,6 +6,32 @@
 .page_footer{
 	background: #D7D1C9;
 }
-.nav-item_1{
-	float: right;
+.nav-list{
+	position: absolute;
+	margin-left: 710px;
+	margin-top: 33px;
+
+}
+.anne_sweet{
+	margin-left: 120px;
+	margin-top: 4px;
+}
+.anne_sweet,
+.nav-list{
+	float: left;
+}
+.nav-item_1,
+.nav-item_2,
+.nav-item_3,
+.nav-item_4{
+	float: left;
+	margin-right: 83px;
+}
+.nav-item_4{
+	margin-right: 0px;
+}
+a{
+	color: #2E2F22;
+	font-size: 18px;
+	text-decoration: none;
 }
